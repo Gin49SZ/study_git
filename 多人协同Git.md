@@ -118,4 +118,13 @@ git checkout -b dev
 
     ![Owner的review界面](Owner的review界面.png)
 
-  * 点击添加
+  * 点击`Add your review`即可添加review
+  
+    ![review展示](C:\Users\Gin49SZ\Desktop\Study\libraryMIS\DevelopmentNote\study_git\review展示内容.png)
+  
+  
+  * Owner通过提交review或者approved即可通过review，之后合并会变成允许状态，点击合并后即可将ddz分支合并到dev
+  
+* 删除ddz分支，合并成功后，会提示可以删除对应的分支，点击delete branch即可删除，之后Code界面就不会有ddz分支
+
+  ![删除branches](C:\Users\Gin49SZ\Desktop\Study\libraryMIS\DevelopmentNote\study_git\删除branch.png)
