@@ -652,7 +652,7 @@ git pull origin dev -> git fetch origin dev
 
 ```
 git config --local merge.tool bc4(合并工具名，可随意)
-git config --global mergetool.bc4.cmd "\"C:\\Program Files\\Beyond Compare 4\\BComp.exe\" \" (软件地址)
+git config --local mergetool.bc4.cmd "\"C:\\Program Files\\Beyond Compare 4\\BComp.exe\" \" (软件地址)
 git config --local mergetool.keepBackup false (解决冲突无需保存备份)
 ```
 
